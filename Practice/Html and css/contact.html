@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contsct Form</title>
+    <style>
+        table,td{
+            border: 1px solid;
+            border-collapse: collapse;
+            font-size: 20px;
+            padding: 3px;
+            width: 25%;
+            height: 50%;
+            background-color: cadetblue;
+        }
+        th{
+            background-color: burlywood;
+        }
+        body{
+            align-items: center;
+        }
+        .sen{
+            align-items: center;
+
+        }
+    </style>
+
+</head>
+<body>
+    
+
+    <form action="" onsubmit="">
+        <table>
+            <tr>
+                <th colspan="2">Contact Us</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Name</label>
+                </td>
+                <td>
+                    <input type="text" name="name" id="name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mail">Email</label>
+                </td>
+                <td>
+                    <input type="email" name="mail" id="mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="message">Message</label>
+                </td>
+                <td>
+                    <textarea name="message" id="message" cols="20" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" class=".sn" >
+                    <!-- <input type="submit" value="Send"> -->
+                    <button>Send</button>
+                </th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function foo(){
+            alert("Thanks");
+        }
+    </script>
+</head>
+
+<body>
+    <form action="" method="GET" onsubmit="foo();">
+
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fnmae" required><br>
+
+        <label for="mname">Middle Name</label><br>
+        <input type="text" id="mname" name="mnmae"><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="mname" name="mnmae"><br>
+        <label for="mail">Email</label><br>
+        <input type="email" name="mail" id="mail" > <br>
+        <label for="mobile">Mobile Number</label><br>
+        <input type="number" name="mobile" id="mobile"><br>
+        <label for="date">DOB</label><br>
+        <input type="date" name="date" id="date"><br>
+        <label for="pphoto">Profile Photo</label><br>
+        <input type="file" name="pphoto" id="pphoto"><br><br>
+        <input type="image" src="" alt="logo.jpg"><br><br>
+
+        <label for="pwd">Password</label><br>
+        <input type="password" name="pwd" id="pass"><br>
+    
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value=Male>
+    
+        <label for="female">FeMale</label>
+        <input type="radio" name="gender" id="female" value="female"><br>
+        <label for="States">Choose yor State</label><br>
+        <select name="district" id="states">
+            <optgroup label="TamilNadu">
+
+                <option value="Chennai">Chennai</option>
+                <option value="Madurai">Bangalore</option>
+                <option value="Trichy">Palakad</option>
+                <option value="kaniyakumari">Mysore</option>
+            </optgroup>
+            <optgroup label="Karnataka">
+
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Mysore">Mysore</option>
+                <option value="Hasan">Hasan</option>
+                <option value="Kolar">Kolar</option>
+            </optgroup>
+
+        </select><br><br>
+        
+    
+    
+    
+        <input type="submit" value="submit"><br>
+        
+    </form>
+    
+</body>
+
+</html>

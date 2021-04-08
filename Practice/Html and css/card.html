@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        table{
+            border: 3px solid;
+            border-collapse: separate;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        input{
+            
+            text-align: center;
+            font-weight: bold;
+        }
+        th{
+            background-color: red;
+            color: whitesmoke;
+            font-size: 20px;
+            
+        }
+        .bl{
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+
+        <table>
+            <tr>
+                <th colspan="3">Yes!i want to subscribe to Mag-O-Zine</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" name="fname" id="fname" value="Joe"><br>
+                    First Name
+                </td>
+                <td colspan="1.5">
+                    <input type="text" name="lname" id="lname" value="schmegeggie"><br>Last Name
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input style="text-align:start;" type="text" name="address" id="address" size="71" value="&emsp;&emsp; 101 Manchestor Street"><br>Address
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="city" id="city" value="Arizona"><br>City
+                </td>
+                <td>
+                    <input type="text" name="state" id="state" value="C4"><br>State
+                </td>
+                <td>
+                    <input type="text" name="zip" id="zip" value="99999"><br>Zip
+                </td>
+            </tr>
+        
+    
+            <tr>
+                <td colspan="3" class="bl">
+                    subscribe for: 
+                
+                    <input type="checkbox" name="1yr" id="1yr" checked>1 Year($19.95)
+                
+                    <input type="checkbox" name="1yr" id="1yr">2 Year($35.00)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="bl">
+                    send me more information about: <br>
+                    &emsp;<input type="checkbox" name="comp" id="comp" checked> Computer-zine <br>
+                    &emsp;<input type="checkbox" name="fish" id="fish" > Fishing_zine <br>
+                    &emsp;<input type="checkbox" name="cat" id="cat" checked> Cat-o-zine <br>
+    
+                </td>
+            </tr>
+        
+        </table>
+    </form>
+</body>
+</html>
